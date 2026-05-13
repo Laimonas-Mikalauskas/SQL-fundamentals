@@ -2,7 +2,7 @@ This repository contains simple examples that I applied by developing SQLite rel
 It consists from basic SQL keywords, statements, constraints and data types
 
 1. Keywords
-- SELECT statement - retrieves data from database
+- SELECT - retrieves data from database
 - FROM - specifies table from which data should be retrieved
 - WHERE - filters relevant results
 
