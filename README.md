@@ -1,4 +1,4 @@
-This repository contains simple examples that I applied by developing SQLite relational databases
+This repository contains simple examples that I applied by developing SQLite relational databases.
 It consists from basic SQL keywords, statements and data types
 
 1. Keywords
