@@ -10,7 +10,7 @@ It consists from basic SQL keywords, statements and data types
 - CREATE TABLE statement - creates a new tablw 
 - INSERT INTO statement - enters new data in a table
 - UPDATE statement - modifies existing data in a table
-- DEKETE statement - removes data from a table
+- DELETE statement - removes data from a table
 
 3. Data types
 -  INTEGER - whole number
