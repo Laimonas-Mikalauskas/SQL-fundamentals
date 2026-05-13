@@ -1,24 +1,24 @@
 import sqlite3
 
-conn = sqlite3.connect(":memory:")
-cur = conn.cursor()
+conn = sqlite3.connect('database.db')
+cursor = conn.cursor()
 
-cur.execute("""
-CREATE TABLE person (
-    first_name TEXT,
-    last_name TEXT,
-    email TEXT,
-    gender TEXT,
-    date_of_birth DATE,
-    company TEXT
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, 
+    email TEXT UNIQUE,
+    name TEXT NOT NULL,
+    age INTEGER CHECK (age >= 18),
+    city TEXT DEFAULT 'Vilnius'
 )
 """)
 
-cur.executemany("""
-INSERT INTO person VALUES (?, ?, ?, ?, ?, ?)
-""", [
-    ("John", "Johnson", "john@example.com", "Male", "1985-03-15", "Google"),
-    ("Jane", "Wilson", "jane@example.com", "Female", "1991-07-22", "Amazon"),
-    ("Peter", "Peterson", "peter@example.com", "Male", "1978-11-05", "IBM"),
-    ("Marry", "Montgomery", "marry@example.com", "Female", "1995-12-01", "Google"),
-])
+cursor.execute('INSERT INTO users (email, name, age, city) VALUES (?, ?, ?, ?)', ('jonas@example.com', 'Jonas', 20, 'Kaunas'))
+cursor.execute('INSERT INTO users (email, name, age) VALUES (?, ?, ?)', ('jonas@example.com', 'Jonas', 55))
+conn.commit()
+
+cursor.execute('SELECT * FROM users')
+
+for row in cursor.fetchall():
+    print(row)
+
