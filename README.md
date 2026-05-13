@@ -20,7 +20,7 @@ It consists from basic SQL keywords, statements, constraints and data types
 -  PRIMARY KEY - uniquely identifies each row in a table
 -  FOREIGN KEY - identifies a row/record in other table
 -  TEXT UNIQUE - shows different values in a column
--  TEXT NOT NULL - ensures thac columns cannot have a NULL value
+-  TEXT NOT NULL - ensures that columns cannot have a NULL value
      
   
 
