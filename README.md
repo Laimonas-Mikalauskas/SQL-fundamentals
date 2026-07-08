@@ -7,7 +7,7 @@ It consists from basic SQL keywords, statements, constraints and data types
 - WHERE - filters relevant results
 
 2. Statements
-- CREATE TABLE statement - creates a new tablw 
+- CREATE TABLE statement - creates a new table
 - INSERT INTO statement - enters new data in a table
 - UPDATE statement - modifies existing data in a table
 - DELETE statement - removes data from a table
