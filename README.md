@@ -14,6 +14,7 @@ It consists from basic SQL keywords, statements, constraints and data types
 
 3. Data types
 -  INTEGER - whole number
+-  FLOAT - decimal number
 -  TEXT - string used for text entries
 
 4. SQL constraints
