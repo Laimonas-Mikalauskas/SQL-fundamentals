@@ -41,7 +41,7 @@ Data security in SQLAlchemy ORM database:
 - Data insertion
 - Weak data security
 - SQL injection
-- ORM-based parameterized queries usage to protect user data by creating  user input 
+- ORM-based parameterized queries usage to protect user data by creating secure user input 
 
 
   
