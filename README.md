@@ -23,7 +23,17 @@ It consists from basic SQL keywords, statements, constraints and data types
 -  FOREIGN KEY - identifies a row/record in other table
 -  TEXT UNIQUE - shows different values in a column
 -  TEXT NOT NULL - ensures that columns cannot have a NULL value
-     
-  
+
+5. Secure CRUD operations
+
+Also it includes SQL injection demo how database can by accessed due the weak 
+data security:
+
+Description of the following processes:
+- Table creation
+- Data insertion
+- Weak data security
+- SQL injection
+- Parameterized queries usage to protect user data with strong username and password 
 
   
