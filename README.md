@@ -29,11 +29,19 @@ It consists from basic SQL keywords, statements, constraints and data types
 Also it includes SQL injection demo how database can by accessed due the weak 
 data security in SQLite and SQLAlchemy ORM databases 
 
-Description of the following processes:
+Description of the following processes in SQLite relational database:
 - Table creation
 - Data insertion
 - Weak data security
 - SQL injection
-- Parameterized queries usage to protect user data with strong username and password by creating secure user input in SQLAlchemy ORM and SQLite relational database 
+- Parameterized queries usage to protect user data with strong username and password by creating secure user input in SQLAlchemy ORM and SQLite relational database
+
+Data security in SQLAlchemy ORM database:
+- Table creation
+- Data insertion
+- Weak data security
+- SQL injection
+- ORM-based parameterized queries usage to protect user data by creating  user input 
+
 
   
