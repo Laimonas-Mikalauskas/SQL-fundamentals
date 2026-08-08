@@ -34,14 +34,14 @@ Description of the following processes in SQLite relational database:
 - Data insertion
 - Weak data security
 - SQL injection
-- Parameterized queries usage to protect user data with strong username and password by creating secure user input in SQLAlchemy ORM and SQLite relational database
+- Parameterized queries usage to protect user data with strong username and password by creating secure user input in SQLite relational database
 
 Data security in SQLAlchemy ORM database:
 - Table creation
 - Data insertion
 - Weak data security
 - SQL injection
-- ORM-based parameterized queries usage to protect user data by creating secure user input 
+- ORM-based parameterized queries usage to protect user data by creating secure user input in SQLAlchemy ORM database
 
 
   
